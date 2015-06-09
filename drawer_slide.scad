@@ -1,0 +1,1 @@
+import("drawer_slide.stl", convexity=3);
