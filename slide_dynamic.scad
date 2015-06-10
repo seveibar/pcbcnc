@@ -1,5 +1,5 @@
 module slide_dynamic(){
-    translate([300,0,0]){
+    translate([0,0,9/32]) scale(.04,.04,.04) rotate([0,180,0]) translate([305,0,0]){
         difference(){
             import("drawer_slide.stl", convexity=6);
             union(){

@@ -1,5 +1,6 @@
 module slide_dynamic(){
-    translate([0,0,0]){
+    //#cube([12,1+13/16,1/2],center=true);
+    translate([0,0,1/4]) scale([.04,.04,.04]){
         difference(){
             import("drawer_slide.stl", convexity=6);
             union(){
